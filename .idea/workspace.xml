@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386c73fe-2fdb-4261-8f91-b8e12357d49a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Dynamic Cloud/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Cloud/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/src/main/java/net/cloud/lib/database/structure/IConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/src/main/java/net/cloud/lib/database/structure/SQLManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dynamic Cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Cloud/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../Dynamic Cloud/out/" />
     <ignored path="$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/target/" />
@@ -15,21 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/.gitignore">
+      <file leaf-file-name="SQLManagement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/src/main/java/net/cloud/lib/database/structure/SQLManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>package net\.cloud\.lib\.database\.structure\;\n\npublic class IConnector\{\n\n    private String host\;\n    private int port\;\n    private String database\;\n    private String password\;\n\n\}\n</find>
+      <find>package net\.cloud\.lib\.database\.structure\;\n\npublic class IConnector\{\n\n    private String host\;\n    private int port\;\n    private String database\;\n    private String password\;\n    \n    public IConnector\(String host\, int port\, String database\, String password\)\{\n        this\.host \= host\;\n        this\.port \= port\;\n        this\.database \= database\;\n        this\.password \= password\;\n    \}\n\n    public int getPort\(\)\{\n        return port\;\n    \}\n\n    public String getDatabase\(\)\{\n        return database\;\n    \}\n\n    public String getHost\(\)\{\n        return host\;\n    \}\n\n    public String getPassword\(\)\{\n        return password\;\n    \}\n\}\n</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Dynamic Cloud" />
@@ -43,6 +53,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../Dynamic Cloud/.gitignore" />
+        <option value="$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/src/main/java/net/cloud/lib/database/structure/IConnector.java" />
       </list>
     </option>
   </component>
@@ -75,6 +86,87 @@
             <path>
               <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dynamic Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dynamic Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="Cloud - Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,7 +247,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558110317834</updated>
-      <workItem from="1558110321512" duration="587000" />
+      <workItem from="1558110321512" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1558110378058</created>
@@ -185,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558110799428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix .gitignore File">
+      <created>1558110932112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558110932112</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="587000" />
+    <option name="totallyTimeSpent" value="1725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -210,13 +309,13 @@
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,7 +333,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Add Cloud - Library Module" />
     <MESSAGE value="Add .gitignore File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore File" />
+    <MESSAGE value="Fix .gitignore File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix .gitignore File" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/pom.xml">
@@ -243,7 +343,38 @@
     <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/src/main/java/net/cloud/lib/database/structure/IConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/src/main/java/net/cloud/lib/database/structure/SQLManagent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/src/main/java/net/cloud/lib/database/structure/SQLManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
