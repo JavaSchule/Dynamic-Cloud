@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386c73fe-2fdb-4261-8f91-b8e12357d49a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Dynamic Cloud/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Cloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dynamic Cloud/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Cloud/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../Dynamic Cloud/out/" />
     <ignored path="$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/target/" />
@@ -25,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -156,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558110317834</updated>
-      <workItem from="1558110321512" duration="459000" />
+      <workItem from="1558110321512" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1558110378058</created>
@@ -179,11 +178,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558110588082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add .gitignore File">
+      <created>1558110799428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558110799428</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459000" />
+    <option name="totallyTimeSpent" value="587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -227,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Add Cloud - Library Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Cloud - Library Module" />
+    <MESSAGE value="Add .gitignore File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore File" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/Cloud - Library/pom.xml">
@@ -236,7 +243,7 @@
     <entry file="file://$PROJECT_DIR$/../Dynamic Cloud/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
